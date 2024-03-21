@@ -2,7 +2,6 @@ const { HDNodeWallet } = require("ethers")
 require('dotenv').config()
 
 const phrase = process.env.phrase
-console.log(phrase)
 const limit = 20
 
 for (let index = 0; index < limit; index++) {
